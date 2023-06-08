@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>My Portfolio</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+   <link rel="stylesheet" href="css/style.css" />
+   <script src="js/click.js"></script>
+   <script src="js/about.js"></script>
+   <script src="js/jquery.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/cordoa.js"></script>
+ </head>
+ 
+ <body class="body" onclick="PlayClick()">
+  <video autoplay muted loop id="myvid">
+    <source src="img/mat.mp4" type="video/mp4">
+  </video>
+    
+        <audio autoplay src="audio/fade.mp3"></audio>
+   <div data-role="page" id="home">
+    <div data-role="header" id="head">
+      <h1 id="port" onmousedown="heay.play()">My Portfolio </h1>
+    </div><!--Header-->
+
+     <div role="main" class="ui-content" onmousedown="pila.play()">
+     </div><!--ui content--><br>
+     <p class="ui-btn ui-icon-user ui-btn-icon-left btn1" id="bg" onmousedown="cli.play()"><a href="#profile" class="btn2" data-transition="flip" id="color">Profile</a></p><br>
+     <p class="ui-btn ui-icon-tag ui-btn-icon-left btn1" id="bg" onmousedown="cli.play()"><a href="#skills" class=" btn2" data-transition="turn" id="color">Skills</a></p><br>
+     <p class="ui-btn ui-icon-info ui-btn-icon-left btn1" id="bg" onmousedown="cli.play()"><a href="#about" class="btn2" data-transition="flip" id="color">About</a></p><br>
+    <p class="ui-btn ui-icon-mail ui-btn-icon-left btn1" id="bg" onmousedown="cli.play()"><a href="#contact" class="btn2" data-transition="turn" id="color">Contact</a></p><br>
+    <p class="ui-btn ui-icon-gear ui-btn-icon-left btn1" id="bg" onmousedown="cli.play()"><a href="#contribute" class="btn2" data-transition="pop" id="color">Contribute</a></p><br>
+    <!----exit app---->
+    <p class="btn1" onmousedown="cli.play()"><a onclick="PlaySound()" href="#popupCloseRight" data-rel="popup" data-position-to="window" class="ui-btn ui-icon-action  ui-btn-icon-left color" data-transition="pop" class="btn2" id="exit">Exit</a></p><br>
+    <div data-role="popup" id="popupCloseRight" class="ui-content">
+      <p id="para"><a href="index.html" id="href">Are you sure you want to close the app?</a></p>
+      <a onClick="closeApp()" class="ui-btn ui-icon-delete ui-btn-icon-left" data-role="button" id="yes" onmousedown="cli.play()">Yes</a>
+      <a onclick="PlaySound()" class="ui-btn ui-icon-minus ui-btn-icon-left" href="#" data-rel="back" data-role="button" id="no" onmousedown="cli.play()">No</a>
+    </div> <!--exitbutton-->
+        <!----exit app---->
+     <div data-role="footer" data-position="fixed" id="head">
+       <h4 id="port" onmousedown="mes.play()">@poisk-ls</h4>
+     </div><!-- /footer-->
+     </div><!--/Page 1-->
+     
+ <!--------/PAGE 2 PROFILE\----------->
+     <div data-role="page" id="profile">
+       <div data-role="header" id="head" onmousedown="heay.play()">
+         <h1 id="port">Profile</h1>
+       </div><!-- /Header-->
+     <div role="main" class="ui-content">
+        <a href="#home" data-transition="flip" class="ui-icon-carat-l ui-btn-icon-left btn2" onmousedown="clic.play()"></a></div><!-- /content--><center>
+     <img src="img/me.png" width="120" style="justify-content: center;border:1px solid greenyellow;max-height: 120px;border-radius: 3px;" onmousedown="pois.play()"></center>
+     <span id="text" onmousedown="tezt.play()">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+     <p style="text-align:center;"><input type="image" src="../img/keybord.gif" width="300" max-height="100" id="keyb" onmousedown="keybb.play()"></p>
+     <p class="par3"> </p>
+     <div data-role="footer" data-position="fixed" id="head">
+       <h4 id="port" onmousedown="mes.play()">@poisk-ls</h4>
+     </div><!-- /footer-->
+   </div><!-- /page 2-->
+   
+ <!----------/PAGE 3 SKILLS\----------->
+     <div data-role="page" id="skills">
+             <div data-role="header" id="head" onmousedown="heay.play()">
+               <h1 id="port">Skills</h1>
+             </div><!-- /Header-->
+             <div role="main" class="ui-content">
+               <a href="#home" data-transition="turn" class="ui-icon-carat-l ui-btn-icon-left btn2" onmousedown="clic.play()"></a>
+               <br><br><br>
+               <div class="par3" onmousedown="skilz.play()">
+               HTML <progress id="html" value="30" max="100"></progress> 30% <br><br>
+              CSS <progress id="html" value="35" max="100"></progress> 35%<br><br>
+              JS <progress id="html" value="5" max="100"></progress> 5%<br><br>
+              Database <progress id="html" value="45" max="100"></progress> 45%<br><br>
+              MySQL <progress id="html" value="40" max="100"></progress> 40%<br><br>
+              Terminal <progress id="html" value="50" max="100"></progress> 50%<br><br>
+              Teamwork <progress id="html" value="95" max="100"></progress> 95%<br><br>
+              Modding <progress id="html" value="50" max="100"></progress> 50%<br><br>
+              Mobile Security <progress id="html" value="70" max="100"></progress> 70%<br><br>
+              Cybersecurity <progress id="html" value="85" max="100"></progress> 85%<br><br>
+              Customize <progress id="html" value="50" max="100"></progress> 50%
+              </div>
+             </div><!-- /content-->
+             <div data-role="footer" data-position="fixed" id="head">
+               <h4 id="port" onmousedown="mes.play()">@poisk-ls</h4>
+             </div><!-- /footer-->
+           </div><!-- /page 2-->
+           
+ <!---------/PAGE 4 ABOUT\---------->
+            <div data-role="page" id="about">
+              <div data-role="header" id="head" onmousedown="heay.play()">
+                <h1 id="port">About me</h1>
+              </div><!-- /Header-->
+              <div role="main" class="ui-content">
+            <a href="#home" data-transition="flip" class="ui-icon-carat-l ui-btn-icon-left btn2" onmousedown="clic.play()"></a><br><br>
+                <h3 class="par4" id="par4" onmousedown="aboutz.play()">Developer: Jade Nelson N. Buhayan<br><br>Course: BSIT<br><br>Age: 21<br><br>Nationality: Pure Filipino<br><br>Birthdate: August, 08, 2001<br><br>Place of Birth: Birthing Home<br><br>Purok: Vietnamrose<br><br>
+                 Address: Tarong, Madridejos, Cebu<br><br>Religion: Catholic<br><br>Status: Taken<br><br>Education: 2020-2024 -- S.Y Taking Course Bachelor of Science Information Technology , present -- 4th year level<br></h3><br><br><center><span onclick="own()" id="with" onmousedown="sipat.play()">In a relationship with.. </span></center><br>
+              </div><!-- /content-->
+              <br><span style="color:yellowgreen;text-shadow: 0 0 0;font-family:'Times New Roman';font-variant:small-caps;font-size:12px;margin-left:320px;text-align: left;justify-content: left;" onmousedown="cli.play()">V4.4.4 </span><br>
+              <div data-role="footer" data-position="fixed" id="head">
+                <h4 id="port" onmousedown="mes.play()">@poisk-ls</h4>
+              </div><!-- /footer-->
+            </div><!-- /About-->
+            
+ <!---------/PAGE 4 CONTACT\---------->
+             <div data-role="page" id="contact">
+               <div data-role="header" id="head" onmousedown="heay.play()">
+                 <h1 id="port">Contact me</h1>
+               </div><!-- /Header-->
+               <div role="main" class="ui-content">
+                 <a href="#home" data-transition="flow" class="ui-icon-carat-l ui-btn-icon-left btn2" onmousedown="clic.play()"></a><br><br><br>
+               </div><!-- /content-->
+               <a href="#" onclick="ph0ne()"><img src="svg2/call.svg" id="svgs-call" onmousedown="socs.play()"></a><br><br><br><a href="#" onclick="m4il()"><img src="svg2/gmail.svg" id="svgs-gmail" onmousedown="socs.play()"></a>
+               <br><br><br><a href="https://www.linkedin.com/in/@poisk-ls-754943255" target="_blank"><img src="svg2/link.svg" id="svgs-link" onmousedown="socs.play()"></a><br><br><br><a href="https://m.me/poiskls" target="_blank"> <img src="svg2/mes.svg" id="svgs-mes" onmousedown="socs.play()"></a><br><br><br><a href="https://www.facebook.com/poiskls" target="_blank"><img src="svg2/fb.svg" id="svgs-fb" onmousedown="socs.play()"></a><br><br>
+                <br><a href="https://instagram.com/buhayanjade" target="_blank"><img src="svg2/insta.svg" id="svgs-insta" onmousedown="socs.play()"></a><br><br>
+                <br><a href="https://t.me/poiskLs/" target="_blank"><img src="svg2/tele.svg" id="svgs-tel" onmousedown="socs.play()"></a><br><br>
+                <br><a href="https://twitter.com/poisk_ls" target="_blank"><img src="svg2/twitter.svg" id="svgs-twit" onmousedown="socs.play()"></a>
+                <br><br>
+               <div data-role="footer" data-position="fixed" id="head">
+                 <h4 id="port" onmousedown="onmousedown="heay.play()"play()">@poisk-ls</h4>
+               </div><!-- /footer-->
+             </div><!-- /About-->
+             
+ <!---------/PAGE 4 CONTACT\---------->
+              <div data-role="page" id="contribute">
+                <div data-role="header" id="head" onmousedown="heay.play()">
+                  <h1 id="port" style="font-size: 12px;">Contribute to Github</h1>
+                </div><!-- /Header-->
+                <div role="main" class="ui-content">
+                  <a href="#home" data-transition="flip" class="ui-icon-carat-l ui-btn-icon-left btn2" onmousedown="clic.play()"></a>
+                </div><!-- /content-->
+             <center>
+             <img src="svg/githubstats.svg" width="300" height="200" onmousedown="prik.play()">
+             <img src="svg/terminal.svg" width="300" height="200" id="bord" onmousedown="prik.play()" alt="terminal">
+             <br>
+             <img src="svg/my.svg" width="300" height="200" onmousedown="prik.play()"  alt="Most use Language">
+             <img src="svg/curstreak.svg" width="300" height="200" onmousedown="prik.play()" id="act">
+             <img src="svg/awards.svg" width="300" height="200" onmousedown="prik.play()" id="ward">
+             <img src="svg/act.svg" width="300" height="200" onmousedown="prik.play()" id="act">
+             <br>
+             <a href="https://github.com/@poisk-ls" target="_blank" id="viss" onmousedown="socs.play()"><img src="svg2/github.svg" id="svgs-github" width="70"></a><br>
+             </center><br>
+                <div data-role="footer" data-position="fixed" id="head">
+                  <h4 id="port" onmousedown="mes.play()">@poisk-ls</h4>
+                </div><!-- /footer-->
+              </div><!-- /About-->
+             
+   <script type="text/javascript" src="js/custom.js"></script>
+   <script type="text/javascript" src="js/close.js"></script>
+   <script type="text/javascript" src="js/pro.js"></script>
+ </body>
+</html>
