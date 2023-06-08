@@ -1,0 +1,278 @@
+
+body{
+  background-image: url('../img/fac.jpg');
+  background-repeat: repeat;
+}
+
+#myvid{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; 
+}
+#html{
+  background:greenyellow;
+}
+#home{
+  background-image: url('../img/console.gif');
+}
+
+/***profile*****/
+#profile{
+  background-image: url('../img/js.gif');
+}
+
+/***headings***/
+#port{
+  color: greenyellow;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+}
+
+
+/**header and footer**/
+#head{
+  background: black;
+  text-shadow: 0 0 0;
+  border: 1px solid greenyellow;
+}
+
+/******/
+#keyb{
+  border:2px solid greenyellow;
+  border-radius: 3px;
+}
+
+/***button home**/
+#color{
+  color: gold;
+  font-family: 'Times New Roman';
+  text-decoration: none;
+}
+
+/***img border***/
+#bord{
+  border:1px solid greenyellow;
+  border-radius: 5px;
+}
+
+.btn1{
+  margin-left: 10vh;
+  margin-right: 10vh;
+  text-decoration: none;
+}
+.btn2{
+    text-decoration: none;
+}
+#bg{
+  background: black;
+  text-shadow: 0 0 0;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+.color{
+  color: gold;
+  text-decoration: none;
+}
+
+/***contact**/
+.par{
+  margin-left: 6vh;
+  margin-right: 6vh;
+  text-shadow: 0 0 0;
+}
+.par1{
+  margin-left: 23vh;
+  margin-right: 23vh;
+  text-shadow: 0 0 0;
+}
+.par1s{
+  margin-left: 25vh;
+  margin-right: 25vh;
+  text-shadow: 0 0 0;
+}
+#par{
+  color: greenyellow;
+  font-variant:small-caps;
+  text-decoration: none;
+}
+#contact{
+  background-image: url('../img/proo.gif');
+}
+#svgs-call{
+  border:1px solid greenyellow;
+  margin-left: 22vh;
+  border-radius: 3px;
+}
+#svgs-gmail{
+  border:1px solid greenyellow;
+  margin-left: 20vh;
+  border-radius: 3px;
+}
+#svgs-fb{
+  border:1px solid greenyellow;
+  margin-left: 24vh;
+  border-radius: 3px;
+}
+#svgs-link{
+  border:1px solid greenyellow;
+  margin-left: 22vh;
+  border-radius: 3px;
+}
+#svgs-mes{
+  border:1px solid greenyellow;
+  margin-left: 22vh;
+  border-radius: 3px;
+}
+#svgs-insta{
+  border:1px solid greenyellow;
+  margin-left: 22vh;
+  border-radius: 3px;
+}
+#svgs-tel{
+  border:1px solid greenyellow;
+  margin-left: 24vh;
+  border-radius: 3px;
+}
+#svgs-twit{
+  border:1px solid greenyellow;
+  margin-left: 24vh;
+  border-radius: 3px;
+}
+#svgs-github{
+  border:1px solid greenyellow;
+  margin-left: 6vh;
+  border-radius: 3px;
+}
+
+/**profile***/
+.par3{
+  text-align: center;
+  color: greenyellow;
+  font-weight: thin;
+  text-shadow: 0 0 0;
+  font-variant: small-caps;
+  word-spacing: 2px;
+}
+img{
+  border: 2x solid red;
+}
+#text{
+  color: greenyellow!important;
+  text-shadow: 0 0 0!important;
+  font-family: 'Times New Roman';
+  font-variant: normal;
+  font-size: 7px;
+  font-weight: bold;
+  text-shadow: 1px 0 2px black!important;
+  padding-left: 20px!important;
+  word-spacing: 2px!important;
+  letter-spacing: 3px!important;
+}
+
+
+/***About***/
+.par4{
+  color: #043263;
+  font-size: 13px;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  text-align: left ;
+  text-shadow: 0 0 0;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+#about{
+  background-image: url('../img/proo.gif');
+  font-weight: bold;
+}
+#par4{
+  color: greenyellow;
+  margin-top: 7vh;
+}
+#with{
+  color: greenyellow;
+  font-size: 13px;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-shadow: 0 0 0;
+  font-weight: bold;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+/***skilss***/
+#skills{
+  background-image: url('../img/proo.gif');
+}
+
+/***exit app*****/
+#href{
+  color:gold;
+  text-decoration: none!important;
+}
+#exit{
+  background: black;
+  color: gold;
+  text-shadow: 0 0 0;
+  border:1px groove greenyellow;
+  border-radius: 5px;
+}
+.exit{
+  background: #043263;
+}
+#yes, #no{
+  background: black;
+  color: gold;
+  text-shadow: 0 0 0;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#para{
+  color: gold;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 0 0 0;
+}
+#span{
+  background: #043263;
+}
+#popupCloseRight{
+  background-image: url('../img/console.gif');
+  border: 1px solid greenyellow;
+}
+
+
+/***contribute****/
+#contribute{
+  background-image: url('../img/proo.gif');
+}
+#viss{
+  color: greenyellow;
+  text-shadow: 0 0 0;
+  letter-spacing: 4px;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+}
+#act{
+  border-radius: 5px;
+  margin-top: -30px;
+}
+#ward{
+  margin-top: -60px;
+}
+
+/***FONT FAMILY****/
+@font-face {
+  font-family: ubun;
+  src: url(../font/Ubuntu.tff) format("truetype");
+}
+@font-face {
+  font-family: fira;
+  src: url('../font/Fira.tff');
+}
