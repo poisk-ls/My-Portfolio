@@ -42,10 +42,6 @@ pois.src = "audio/pois.ogg";
 var heid = new Audio();
 heid.src = "audio/heid.wav";
 
-function own() {
-  alert("Glyza Cena Oronan");
-}
-
 function ph0ne() {
   alert("+63 905 2877 252");
 }
